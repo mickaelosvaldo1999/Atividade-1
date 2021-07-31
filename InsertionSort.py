@@ -5,7 +5,7 @@ def InsertionSort(mika):
     for j in range(1, len(mika)):
         chave = mika[j]
         i = j-1
-        while i>0 and mika[i]>chave:
+        while i>-1 and mika[i]>chave:
             mika[i + 1] = mika[i]
             i = i-1
             mika[i+1] = chave
